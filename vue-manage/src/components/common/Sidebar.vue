@@ -39,22 +39,22 @@
         collapse: false,
         items: [
           {
-            icon: 'el-icon-lx-home',
+            icon: 'iconfont icon-xitongshouye-',
             index: 'dashboard',
             title: '系统首页'
           },
           {
-            icon: 'el-icon-lx-cascades',
+            icon: 'iconfont icon-biaoge',
             index: 'table',
             title: '基础表格'
           },
           {
-            icon: 'el-icon-lx-copy',
+            icon: 'iconfont icon-tab',
             index: 'tabs',
             title: 'tab选项卡'
           },
           {
-            icon: 'el-icon-lx-calendar',
+            icon: 'iconfont icon-orderform',
             index: '3',
             title: '表单相关',
             subs: [
@@ -66,10 +66,6 @@
                 index: '3-2',
                 title: '三级菜单',
                 subs: [
-                  {
-                    index: 'editor',
-                    title: '富文本编辑器'
-                  },
                   {
                     index: 'markdown',
                     title: 'markdown编辑器'
@@ -83,12 +79,7 @@
             ]
           },
           {
-            icon: 'el-icon-lx-emoji',
-            index: 'icon',
-            title: '自定义图标'
-          },
-          {
-            icon: 'el-icon-lx-favor',
+            icon: 'iconfont icon-tubiao',
             index: 'charts',
             title: 'schart图表'
           },
@@ -98,14 +89,10 @@
             title: '拖拽列表'
           },
           {
-            icon: 'el-icon-lx-warn',
+            icon: 'el-icon-warning',
             index: '6',
             title: '错误处理',
             subs: [
-              {
-                index: 'permission',
-                title: '权限测试'
-              },
               {
                 index: '404',
                 title: '404页面'
@@ -130,6 +117,9 @@
 </script>
 
 <style scoped>
+   i {
+    font-size: 20px;
+  }
   .sidebar{
     display: block;
     position: absolute;

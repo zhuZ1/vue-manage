@@ -32,7 +32,7 @@
                     <el-col :span="8">
                         <el-card shadow="hover" :body-style="{padding: '0px'}">
                             <div class="grid-content grid-con-1">
-                                <i class="el-icon-lx-people grid-con-icon"></i>
+                                <i class="iconfont icon-yonghu grid-con-icon"></i>
                                 <div class="grid-cont-right">
                                     <div class="grid-num">1234</div>
                                     <div>用户访问量</div>
@@ -43,9 +43,9 @@
                     <el-col :span="8">
                         <el-card shadow="hover" :body-style="{padding: '0px'}">
                             <div class="grid-content grid-con-2">
-                                <i class="el-icon-lx-notice grid-con-icon"></i>
+                                <i class="iconfont icon-xitongxiaoxi grid-con-icon"></i>
                                 <div class="grid-cont-right">
-                                    <div class="grid-num">321</div>
+                                    <div class="grid-num">100</div>
                                     <div>系统消息</div>
                                 </div>
                             </div>
@@ -54,9 +54,9 @@
                     <el-col :span="8">
                         <el-card shadow="hover" :body-style="{padding: '0px'}">
                             <div class="grid-content grid-con-3">
-                                <i class="el-icon-lx-goods grid-con-icon"></i>
+                                <i class="iconfont icon-shuliang grid-con-icon"></i>
                                 <div class="grid-cont-right">
-                                    <div class="grid-num">5000</div>
+                                    <div class="grid-num">500</div>
                                     <div>数量</div>
                                 </div>
                             </div>
@@ -231,9 +231,6 @@
 
 
 <style scoped>
-    .el-row {
-        margin-bottom: 20px;
-    }
 
     .grid-content {
         display: flex;
@@ -328,11 +325,6 @@
 
     .todo-item {
         font-size: 14px;
-    }
-
-    .todo-item-del {
-        text-decoration: line-through;
-        color: #999;
     }
 
     .schart {
